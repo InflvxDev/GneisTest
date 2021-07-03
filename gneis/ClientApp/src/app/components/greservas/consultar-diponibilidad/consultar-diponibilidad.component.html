@@ -1,0 +1,21 @@
+<div class="container">
+    <h2 id="titulo" class="title">Listado de Habitaciones Diponibles</h2>
+    <input autocomplete="off" type="text " class="email" name="search" placeholder="Search" [(ngModel)]="searchhabitacion">
+</div>
+<br>
+<br>
+
+<div class="container">
+
+    <div class="card-columns">
+        <div class="card animated fadeIn fast" *ngFor="let habitacion of habitacionesfiltradas |filtrohabitacion2 : searchhabitacion">
+            <img src="assets/img/habitacion.svg" class="card-img-top ">
+            <div class="card-body ">
+                <h5 class="card-title ">Habitacion: {{habitacion.idhabitacion}}</h5>
+                <p class="card-text ">Tipo Habitacion: {{habitacion.tipo}}</p>
+                <p class="card-text "><small class="text-muted ">Costo: {{habitacion.costo|currency:'COP$ ':'symbol':'.0-0'}}</small></p>
+                <button type="button" class="btn btn-light" id="login" (click)="Reservar(habitacion)">Reservar</button>
+            </div>
+        </div>
+    </div>
+</div>

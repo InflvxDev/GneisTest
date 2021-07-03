@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "glbV/lHy466tcgqy9LYEYJ0n63TZSTymtqpO/TDaCA6cdwIO3G6RKnHvWAPJcPWqlABNqzc1GGwlzR2WQ2Q1DQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SEBASTIAN\\Documents\\GneisRelease-master\\Entidad\\Entidad.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SEBASTIAN\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
